@@ -3,10 +3,7 @@ services:
 
   #PHP Service
   app:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    image: laravel-php:dev
+    image: alicholakov/laravel-php:1.1
     container_name: app
     restart: unless-stopped
     tty: true
