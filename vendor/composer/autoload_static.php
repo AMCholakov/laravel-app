@@ -420,6 +420,7 @@ class ComposerStaticInit574461b130c8a559354b4cad8453f80d
     );
 
     public static $classMap = array (
+        'App\\Attribute' => __DIR__ . '/../..' . '/app/Attribute.php',
         'App\\Brand' => __DIR__ . '/../..' . '/app/Brand.php',
         'App\\Category' => __DIR__ . '/../..' . '/app/Category.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
@@ -448,7 +449,6 @@ class ComposerStaticInit574461b130c8a559354b4cad8453f80d
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
         'App\\Rating' => __DIR__ . '/../..' . '/app/Rating.php',
         'App\\Subcategory' => __DIR__ . '/../..' . '/app/Subcategory.php',
-        'App\\Trait' => __DIR__ . '/../..' . '/app/Trait.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'BeyondCode\\DumpServer\\DumpServerCommand' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src/DumpServerCommand.php',
         'BeyondCode\\DumpServer\\DumpServerServiceProvider' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src/DumpServerServiceProvider.php',
